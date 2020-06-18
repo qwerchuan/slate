@@ -463,7 +463,7 @@ class Content extends React.Component {
       const range = editor.findRange(domSelection)
 
       if (range && range.equals(selection.toRange())) {
-        this.updateSelection()
+        // this.updateSelection()
         return
       }
     }
